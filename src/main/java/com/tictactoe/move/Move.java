@@ -6,4 +6,7 @@ public class Move {
     public Move(int cell) {
         this.cell = cell;
     }
+    public int getCell() {
+        return cell;
+    }
 }
